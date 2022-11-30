@@ -5,7 +5,9 @@
 
 //Console.WriteLine("Hello, World!");
 
+Console.WriteLine("Введите первое число: ");
 int NumberA = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите второе число: ");
 int NumberB = int.Parse(Console.ReadLine());
 
 if (NumberB == NumberA)
