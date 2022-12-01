@@ -11,14 +11,14 @@ Console.WriteLine("Введите второе число: ");
 int NumberB = int.Parse(Console.ReadLine());
 
 if (NumberB == NumberA)
-{ Console.WriteLine("Введенные числа равны");}
+{ Console.WriteLine("Введенные числа равны"); }
 
-else 
+else
  if (NumberA > NumberB)
-{ Console.WriteLine($"Большее число - {NumberA}");}
+{ Console.WriteLine($"Большее число - {NumberA}"); }
 //Console.WriteLine($"Меньшее число - {NumberB}");}
 else
 {
-Console.WriteLine($"Большее число - {NumberB}"); 
-//Console.WriteLine($"Меньшее число - {NumberA}");
+    Console.WriteLine($"Большее число - {NumberB}");
+    //Console.WriteLine($"Меньшее число - {NumberA}");
 }

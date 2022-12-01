@@ -12,13 +12,13 @@ Console.WriteLine("Введите третье число: ");
 int NumberC = int.Parse(Console.ReadLine());
 
 if (NumberB == NumberA && NumberA == NumberC)
-{   Console.WriteLine("Введенные числа равны"); }
+{ Console.WriteLine("Введенные числа равны"); }
 
 if (NumberB < NumberA && NumberA > NumberC)
-{   Console.WriteLine($"максимальное число - {NumberA}"); }
+{ Console.WriteLine($"максимальное число - {NumberA}"); }
 else
 if (NumberA < NumberB && NumberB > NumberC)
-{   Console.WriteLine($"максимальное число - {NumberB}"); }
+{ Console.WriteLine($"максимальное число - {NumberB}"); }
 else
 if (NumberA < NumberC && NumberC > NumberA)
 {
