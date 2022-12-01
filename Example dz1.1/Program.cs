@@ -16,9 +16,9 @@ if (NumberB == NumberA)
 else 
  if (NumberA > NumberB)
 { Console.WriteLine($"Большее число - {NumberA}");
-Console.WriteLine($"Меньшее число - {NumberB}");}
+//Console.WriteLine($"Меньшее число - {NumberB}");}
 else
 {
 Console.WriteLine($"Большее число - {NumberB}"); 
-Console.WriteLine($"Меньшее число - {NumberA}");
+//Console.WriteLine($"Меньшее число - {NumberA}");
 }
